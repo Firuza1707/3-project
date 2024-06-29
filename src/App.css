@@ -1,38 +1,109 @@
-.App {
-  text-align: center;
+header {
+    color: black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+header a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+header button {
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    color: rgb(0, 153, 255);
+    border: 1px solid rgb(0, 153, 255);
+    border-radius: 10px;
+
+}
+  
+
+
+section .container h1 {
+    text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+section .container p {
+    text-align: center;
+}
+
+section .row{
+    margin-left: 380px;
+   
+}
+.productCard{
+    border: 1px solid grey;
+   
+}
+
+.productCard:hover {
+    box-shadow: 0 10px 20px 0 rgba(106, 104, 104, 0.164);
+}
+
+
+@media screen and (min-width:1400px) {
+    .productCol {
+        width: 20% !important;
+    }
+
+}
+section .h11{
+    text-align: center;
+    background-color: azure;
+}
+section span{
+    color: gray;
+    font-size: 25px;
+}
+
+.priceMonth {
+    text-align: center;
+    padding: 1px 1px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+
+section button{
+    width: 160px;
+    height: 40px;
+    background-color: white;
+    color: rgb(0, 153, 255);
+    border: 1px solid rgb(0, 153, 255);
+    border-radius: 10px;
+}
+section button:hover{
+    width: 160px;
+    height: 40px;
+    background-color: rgb(0, 153, 255);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+section .button1{
+    width: 160px;
+    height: 40px;
+    background-color: rgb(0, 153, 255);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+footer a{
+    text-decoration: none;
 }
